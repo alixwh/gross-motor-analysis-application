@@ -1,12 +1,20 @@
-# electron-vite-vue
+## Gross motor analysis apllication
 
-### Build
-`npm run build`
+Application to help the detection and diagnosis of neurodegenerative diseases and fatigue.
+Constructs a body model using Mediapipe, capable of processing either uploaded videos or webcam footage and storing the data in a CSV file. Functionalities include: displaying trajectories, calculating motion parameters, and determining angles between joints.
 
-### Package
+### Local development
+Create a build directory with a production build of the app:
+```
+npm run build
+```
 
-`npx electron-packager .`
+Run Electron Packager:
+```
+npx electron-packager .
+```
 
-### Run development version
-
-`npm run dev`
+Run development version
+```
+npm run dev
+```
