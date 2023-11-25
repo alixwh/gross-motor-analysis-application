@@ -1,0 +1,16 @@
+.DS_Store
+dist-electron*
+dist*
+build*
+release*
+.idea*
+.vscode/
+node_modules/
+!build/icons
+{{#if unit}}
+coverage
+{{/if}}
+npm-debug.log
+npm-debug.log.*
+thumbs.db
+!.gitkeep
